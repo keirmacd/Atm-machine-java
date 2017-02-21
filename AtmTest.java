@@ -18,7 +18,7 @@ public void testifatmhaslocation(){
   assertEquals("Glasgow", atm.getlocation());
 }
 @Test 
-public void checkifatmhascash{
-assertEquals(6000, atm.getmoneyinmachine)
+public void checkifatmhascash(){
+assertEquals(6000, atm.getmoneyinmachine());
 }
 }
