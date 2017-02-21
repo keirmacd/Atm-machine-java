@@ -21,4 +21,8 @@ public void testifatmhaslocation(){
 public void checkifatmhascash(){
 assertEquals(6000, atm.getmoneyinmachine());
 }
+@Test
+public void checkmoneycanberemoved(){
+  assertEquals(5980, atm.withdraw());
+}
 }

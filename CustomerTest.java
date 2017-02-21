@@ -16,5 +16,8 @@ public void before(){
 public void testifwallethasfunds(){
 assertEquals(0, customer.getTotalFunds());
 }
-
+@Test
+public void testThatAtmDispensesMoney(){
+assertEquals(20, customer.takemoney());
+}
 }

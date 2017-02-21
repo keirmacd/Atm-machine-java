@@ -15,4 +15,7 @@ return location;
 public int getmoneyinmachine(){
   return cashReserve;
 }
+public int withdraw(){
+ return cashReserve - 20;
+}
 }

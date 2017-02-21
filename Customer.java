@@ -11,5 +11,7 @@ public int wallet;
 public int getTotalFunds(){
 return this.wallet;
 }
-
+public int takemoney(){
+  return this.wallet + 20;
+}
 }
