@@ -6,9 +6,19 @@ import org.junit.Before;
 public class AtmTest{
 
 Atm atm;
-Location location;
+String location;
 
 @Before
 public void before(){
-  location = new Customer("Rab");
+  location = "Glasgow";
+  atm = new Atm(location);
+}
+@Test
+public void testifatmhaslocation(){
+  assertEquals("Glasgow", atm.getlocation());
+}
+@Test 
+public void checkifatmhascash{
+assertEquals(6000, atm.getmoneyinmachine)
+}
 }
